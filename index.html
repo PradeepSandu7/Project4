@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script text="text/javascript" src="script.js"></script>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="contianer-1">
+           <input class="datafield" type="input" id='display' placeholder="0" >
+        </div>
+         <div class="contianer-2">
+            <div class="btn">
+                <input type="button" value="7" onclick="Solve('7')">
+                <input type="button" value="8" onclick="Solve('8')">
+                <input type="button" value="9" onclick="Solve('9')">
+                <input type="button" value="Del" onclick="Delete()">
+            </div>
+            <div class="btn">
+                <input type="button" value="4" onclick="Solve('4')">
+                <input type="button" value="5" onclick="Solve('5')">
+                <input type="button" value="6" onclick="Solve('6')">
+                <input type="button" value="+" onclick="Solve('+')">
+            </div>
+            <div class="btn">
+                <input type="button" value="1" onclick="Solve('1')">
+                <input type="button" value="2" onclick="Solve('2')">
+                <input type="button" value="3" onclick="Solve('3')">
+                <input type="button" value="-" onclick="Solve('-')">
+            </div>
+            <div class="btn">
+                <input type="button" value="." onclick="Solve('.')">
+                <input type="button" value="0" onclick="Solve('0')">
+                <input type="button" value="/" onclick="Solve('/')">
+                <input type="button" value="*" onclick="Solve('*')">
+            </div>
+            <div class="btn-1"></div>
+               <input class="reset" type="button" value="RESET" onclick="Clear()">
+               <input class="equal" type="button" value="=" onclick="Result()">
+            </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
